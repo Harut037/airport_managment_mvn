@@ -56,8 +56,7 @@ public class Passenger implements Comparable<Passenger>{
     }
 
 
-    public Passenger(int id, String name, String phone, String country, String city) {
-        this.id = id;
+    public Passenger( String name, String phone, String country, String city) {
         this.name = name;
         this.phone = phone;
         this.country = country;
